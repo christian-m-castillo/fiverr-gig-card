@@ -1,0 +1,55 @@
+body {
+  font-family: sans-serif;
+  margin: 0;
+  padding: 0;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  background-color: #fff;
+}
+
+.container {
+  background: linear-gradient(-45deg, pink 40%, rgb(251, 194, 145));
+  width: 712px;
+  height: 430px;
+  color: #fff;
+  display: flex;
+  flex-direction: column;
+  padding: 40px;
+}
+
+h1 {
+  font-size: 2em;
+  margin-bottom: 10px;
+  text-align: center;
+}
+
+ul {
+  width: 300px;
+  margin: auto;
+  border: 1px solid;
+  padding: 30px 20px 30px 50px;
+  border-radius: 10px;
+}
+
+.icons {
+  display: flex;
+  justify-content: center;
+  margin-top: 20px;
+}
+
+li {
+  font-size: 1.2rem;
+}
+
+.icons i {
+  font-size: 3rem;
+  margin: 0 10px;
+  color: white;
+}
+
+/* Font Awesome Icon classes (replace with your CDN link) */
+.fab {
+  font-family: FontAwesome; /* Replace with your font family name */
+}
