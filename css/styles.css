@@ -10,7 +10,7 @@ body {
 }
 
 .container {
-  background: linear-gradient(-45deg, pink 40%, rgb(251, 194, 145));
+  background: linear-gradient(180deg, rgb(101, 150, 166), rgb(160, 147, 123));
   width: 712px;
   height: 430px;
   color: #fff;
@@ -19,37 +19,61 @@ body {
   padding: 40px;
 }
 
-h1 {
-  font-size: 2em;
-  margin-bottom: 10px;
-  text-align: center;
+header {
+  border-radius: 10px;
+  background-color: rgba(0, 0, 0, 0.35);
+  padding: 10px;
+  margin-top: -12px;
+  box-shadow: 0 0 10px rgba(255, 255, 255, 0.3);
 }
 
-ul {
-  width: 300px;
-  margin: auto;
-  border: 1px solid;
-  padding: 30px 20px 30px 50px;
-  border-radius: 10px;
+h1 {
+  font-size: 1.5em;
+  margin: 0;
+  text-align: center;
 }
 
 .icons {
   display: flex;
   justify-content: center;
-  margin-top: 20px;
-}
-
-li {
-  font-size: 1.2rem;
+  margin-top: 10px;
 }
 
 .icons i {
-  font-size: 3rem;
+  font-size: 1.3rem;
   margin: 0 10px;
   color: white;
 }
 
-/* Font Awesome Icon classes (replace with your CDN link) */
-.fab {
-  font-family: FontAwesome; /* Replace with your font family name */
+.img-box {
+  margin-top: 50px;
+  display: flex;
+  justify-content: center;
 }
+
+img {
+  width: 210px;
+  margin: auto;
+  border-radius: 5px;
+  box-shadow: 0 0 10px rgba(255, 255, 255, 0.8);
+  /*transform: perspective(1000px) rotateX(20deg) rotateY(-20deg) rotateZ(20deg);*/
+}
+
+ul {
+  width: 280px;
+  margin: 45px auto 0 auto;
+  padding: 20px 10px 20px 30px;
+  border-radius: 10px;
+  background-color: rgba(0, 0, 0, .3);
+  box-shadow: 0 0 10px rgba(255, 255, 255, 0.5);
+}
+
+li {
+  font-size: 17px;
+  margin-bottom: 5px;
+  letter-spacing: .015rem;
+}
+
+
+
+
